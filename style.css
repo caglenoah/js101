@@ -1,24 +1,20 @@
-.circle {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 50px;
-}        
-.rounded {
-    width: 130px;
-    height: 130px;
-    border-radius: 25%;
+
+div {
+    width: 260px;
+    height: 260px;
     float: left;
     margin-right: 50px;
 }
+.circle {
+   border-radius: 50%;
+  }        
+.rounded {
+      border-radius: 25%;
+}
 .square {
-    width: 130px;
-    height: 130px;
-    border-radius: 0%;
-    float: left;
-    margin-right: 50px;
-}        
+  border-radius: 0%;  
+} 
+       
 #circle {
     background-color: #196F3D;
 }
@@ -28,4 +24,3 @@
 #square {
     background-color: #58D68D;
 }
-</style>
